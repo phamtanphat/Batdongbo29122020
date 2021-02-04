@@ -67,6 +67,9 @@ function tru(a , b){
         });
     })
 }
-tru(1,1)
-.then(tong => console.log(tong))
+
+// 5 + 2 - 6
+cong(5 , "1")
+.then(tong => tru(tong , 6))
+.then(hieu => console.log(hieu))
 .catch(error => console.log(error))
